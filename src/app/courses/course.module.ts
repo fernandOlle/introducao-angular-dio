@@ -19,6 +19,9 @@ import { AppPipeModule } from '../shared/pipe/app-pipe.module';
         AppPipeModule,
         RouterModule.forChild([
             {
+                path: '', component: CourseListComponent
+            },
+            {
                 path: 'courses', component: CourseListComponent
             },
             {
